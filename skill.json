@@ -1,0 +1,74 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Database to keep track of the beers you drink over the years.",
+          "examplePhrases": [
+            "Alexa, beer database, add Corona to the database with a rating of 4",
+            "Alexa, beer database, add Corona to the database with a rating of 3",
+            "Alexa, beer database, add Budweiser to the database with a rating of 4"
+          ],
+          "keywords": [
+            "Beer",
+            "storage",
+            "database"
+          ],
+          "name": "BeerDB",
+          "description": "Skill that allows a user to store the beers they drink with additionnal information such as rating, brewery, format, alcool level, etc.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "WINE_AND_BEVERAGE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:665694677650:function:0e6018e1-7eab-4b31-b944-03a3f7f4414e:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:665694677650:function:0e6018e1-7eab-4b31-b944-03a3f7f4414e:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:665694677650:function:0e6018e1-7eab-4b31-b944-03a3f7f4414e:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:665694677650:function:0e6018e1-7eab-4b31-b944-03a3f7f4414e:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
